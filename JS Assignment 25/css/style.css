@@ -1,0 +1,81 @@
+body , html{
+    height: 100%;
+}
+.bg{
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.results{
+    margin: auto;
+    /*( for check */
+}
+#noResult{
+    text-align: center;
+    background-color: white;
+}
+table{
+    border: 2px solid black;
+    border-radius: 12px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+.loading{
+    margin: auto;
+    width: 22%;
+}
+.search{
+    margin: auto;
+    width: 23.5%;
+    border: 3px solid whitesmoke;
+    border-radius: 6px;
+}
+h5{
+    color: white;
+    width: 100%;
+}
+input{
+    width: 100%;
+    border: 3px solid rgb(18, 110, 185);
+    border-radius: 6px
+}
+input:focus{
+    outline: none;
+}
+.btn{
+    background-color: rgb(17, 148, 255);
+    border: 1px solid rgb(17, 148, 255);
+    width: 90px;
+}
+.btn:hover{
+    background-color: rgb(18, 110, 185);
+    border: 1px solid rgb(18, 110, 185);
+}
+table{
+    
+}
+#index{
+    text-align: center;
+    width: 30px;    
+}
+#cat{
+    text-align: center;
+    width: 400px;
+}
+#date{
+    text-align: center;
+    width: 140px;
+}
+#status{
+    text-align: center;
+    width: 300px;
+}
+#id{
+    text-align: center;
+    width: 150px; 
+}
+.align{
+    text-align: center;
+}
